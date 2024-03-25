@@ -92,7 +92,13 @@ public class TDDTests {
 
     @Test
     @DisplayName("check that 15 returns 'FizzBuzz'")
-    void checkThatFifteenReturnsFifteen() {
+    void checkThatFifteenReturnsFizzBuzz() {
         Assertions.assertEquals("FizzBuzz", TDD.getFizzBuzzValue(15));
+    }
+
+    @Test
+    @DisplayName("check that 15 returns 'FizzBuzz'")
+    void checkThatThirtyReturnsFizzBuzz() {
+        Assertions.assertEquals("FizzBuzz", TDD.getFizzBuzzValue(30));
     }
 }
