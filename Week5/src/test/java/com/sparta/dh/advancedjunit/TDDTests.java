@@ -97,7 +97,7 @@ public class TDDTests {
     }
 
     @Test
-    @DisplayName("check that 15 returns 'FizzBuzz'")
+    @DisplayName("check that 30 returns 'FizzBuzz'")
     void checkThatThirtyReturnsFizzBuzz() {
         Assertions.assertEquals("FizzBuzz", TDD.getFizzBuzzValue(30));
     }
